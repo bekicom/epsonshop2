@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from '../page/Home'
+import Admin from '../page/Admin'
 
 export default function Main() {
   return (
@@ -21,6 +22,7 @@ export default function Main() {
       <Routes>
 
         <Route path='/' element={<Home />} />
+        <Route path='/admin' element={<Admin/>} />
 
       </Routes>
 

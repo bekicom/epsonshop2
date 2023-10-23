@@ -19,7 +19,7 @@ export default function Navbar() {
                 <button onClick={()=> navigate('/')} >Home</button>
                 <button onClick={()=> navigate('/contact')}>Contact</button>
                 <button   onClick={()=> navigate('/about')}>About</button>
-                <button onClick={()=> navigate('/signup')} >Sign up</button>
+                <button onClick={()=> navigate('/admin')} >Sign up</button>
             </div>
             <div className="search">
 
