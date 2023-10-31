@@ -7,7 +7,7 @@ import Login from "../page/Login";
 import Footer from "./Footer";
 import About from "../page/About";
 import Contact from "../page/Contact";
-import Cart from "../page/Cart";
+import Wishing from "../page/Wishing";
 
 export default function Main() {
   return (
@@ -24,14 +24,14 @@ export default function Main() {
         </select>
       </header>
       <Navbar />
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<Createacc />} />
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
-      {/* <Cart /> */}
+      </Routes> */}
+      <Wishing />
       <Footer />
     </div>
   );
