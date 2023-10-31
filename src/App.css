@@ -1,0 +1,256 @@
+/* Contact start */
+
+.Contact {
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.contact_r {
+    padding-right: 1070px;
+    display: flex;
+}
+
+.contact_r button {
+    background: none;
+    border: none;
+    color: var(--Text2, #000);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.contact_r button:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.center_c {
+    display: flex;
+    gap: 30px;
+}
+
+.left_c {
+    width: 340px;
+    height: 457px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    background: var(--Primary, #FFF);
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+}
+
+.one_c {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.btn_c {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 24px;
+}
+
+.btn_c button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #DB4444;
+    color: white;
+
+}
+
+.btn_c p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.one_c p {
+    color: var(--Text2, #000);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-bottom: 16px;
+}
+
+.one_c span {
+    color: var(--Text2, #000);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.one_c hr {
+    margin: 32px 0 32px 0;
+    width: 270px;
+    height: 1px;
+    background: #000;
+    opacity: 0.5;
+}
+
+.two_c {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.btn_cc {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 24px;
+}
+
+.btn_cc button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #DB4444;
+    color: white;
+}
+
+.btn_cc p {
+    padding-bottom: 16px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.two_c p {
+    color: var(--Text2, #000);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-bottom: 16px;
+}
+
+.two_c span {
+    padding-bottom: 16px;
+    color: var(--Text2, #000);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.right_c {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 457px;
+    border-radius: 4px;
+    background: var(--Primary, #FFF);
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+}
+
+.flex {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.input_thee {
+    padding-top: 40px;
+    display: flex;
+    gap: 16px;
+}
+
+.input_thee input {
+    padding-left: 16px;
+    width: 235px;
+    height: 50px;
+    border-radius: 4px;
+    background: var(--Secondary, #F5F5F5);
+}
+
+.input_big {
+    width: 737px;
+    height: 207px;
+    border-radius: 4px;
+    background: var(--Secondary, #F5F5F5);
+}
+
+.input_big input {
+    background: var(--Secondary, #F5F5F5);
+    width: 100%;
+    height: 100%;
+    padding-left: 16px;
+    padding-bottom: 165px;
+}
+
+.right_c button {
+    margin-left: 530px;
+    width: 215px;
+    height: 56px;
+    border-radius: 4px;
+    background: #DB4444;
+    color: white;
+}
+
+.right_c button:hover {
+    background: gray;
+    transition: 0.3s;
+}
+
+/* Footer start */
+.error {
+    padding: 241px 0 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.error p {
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 115px;
+    letter-spacing: 3.3px;
+}
+
+.error span {
+    color: var(--Text2, #000);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 40px;
+}
+
+.error button {
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    background: var(--Button2, #DB4444);
+    color: var(--Text, #FAFAFA);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.error button:hover {
+    transition: 0.3s;
+    background: gray;
+    color: black;
+}
+
+/* Error end */
