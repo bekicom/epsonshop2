@@ -5,7 +5,7 @@ export default function Login() {
   return (
     <div>
       <div className="create">
-        <div className="imgg">
+        <div className="imggg">
           <img src={tel} alt="" />
 
         </div>
